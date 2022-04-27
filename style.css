@@ -1,3 +1,8 @@
+header {
+    background: white ;
+
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -5,43 +10,46 @@ body {
     background-color: #282A35;
   }
 
-  header {
-    background: white ;
-}
   .container{
     display: flex;
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
     justify-items: center;
-    align-content: center;
+    align-content: center; */
     background-color:white;
+
   
   }
 
+
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+    flex-direction: row;
+    /* justify-items: center;
+    align-items: center; */
+    list-style-type: none;
+    position: relative;
+    background-color: white;
+    font: Arial, sans-serif, black;
+    }
+
+
 li {
 display: flex;
-justify-content: center;
-align-items: space-between;
+justify-content: space-between;
+/* justify-content: center; */
 flex-direction: row;
-background-color: #f2f2f2;
-font-size: 40px;
-
-}
-
-
-
-ul {
-display: flex;
-justify-content: center;
-flex-direction: row;
-justify-items: center;
-align-items: center;
-list-style-type: none;
-position: relative;
 background-color: white;
+font-size: 40px;
+  font: Arial, sans-serif, black;
 
 }
- 
+
+
 .button {
   background-color: #36AF57;
   border: none;
@@ -55,8 +63,6 @@ background-color: white;
   margin: 10px 4px;
   cursor: pointer;
 }
-
-
 
 .learntocodesection{
   background-color: #282A35;
